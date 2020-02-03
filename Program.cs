@@ -9,4 +9,8 @@ namespace BuilderPattern
             Console.WriteLine("Hello World!");
         }
     }
+
+    public class Builder {
+
+    }
 }
