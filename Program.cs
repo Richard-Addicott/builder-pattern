@@ -10,7 +10,7 @@ namespace BuilderPattern
         }
     }
 
-    public class Builder {
+    interface Builder {
 
     }
 }
