@@ -13,4 +13,8 @@ namespace BuilderPattern
     interface Builder {
 
     }
+    class ConcreteBuilder : Builder
+    {
+        
+    }
 }
