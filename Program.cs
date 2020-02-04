@@ -6,13 +6,15 @@ namespace BuilderPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! This is a change whilst working on the Master branch.");
+            Console.WriteLine("Hello World! Work branch being used.");
         }
     }
 
+    // Builder interface used to define all the steps to create a product
     interface Builder {
 
     }
+    // Implements the Builder interface to create a complex product
     class ConcreteBuilder : Builder
     {
         
